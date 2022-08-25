@@ -152,5 +152,5 @@ func accessLog(r *http.Request, httpCode int, payload string) {
 }
 
 func l(severity string, payload string) {
-	log.Printf("error %s %s\n", severity, payload)
+	log.Printf("%s %s\n", severity, payload)
 }
